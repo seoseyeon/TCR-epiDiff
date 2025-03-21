@@ -134,7 +134,7 @@ for tcr_onehot, epitope_embedding, HLA_embedding, real_TCR, real_epitope, real_H
     #result.append((tcr_onehot, epitope_embedding, HLA_embedding, torch.tensor(0, dtype=torch.float32), (real_TCR), (real_epitope), (real_HLA)))
 
 # Save
-with open("/DiffBP_trainig_final_pos.pkl", "wb") as file:
+with open("/Data_Processing.pkl", "wb") as file:
     pickle.dump(result, file)
 
 
