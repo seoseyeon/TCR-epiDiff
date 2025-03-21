@@ -8,3 +8,5 @@ T-cell receptors (TCRs) are fundamental components of the adaptive immune system
 
 ## Objective
 <img src="Images/Objective.gif" width="100%" height="50%"></img><br/>
+* (1) The model enables the de novo generation of TCRs specific to target epitopes.
+* (2) We utilized the TCR-epiDiff encoder to build a classifier for TCR-epitope binding prediction.
