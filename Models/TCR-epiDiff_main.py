@@ -23,8 +23,8 @@ from torchvision import transforms
 from sklearn.model_selection import train_test_split
 from TCR-epiDiff_model import *
 
-#### Load Data ####
-with open("/home/seri9148/seyeon_project/TCR_generation/data/final_data/tcr_epitope_peptide.pkl", "rb") as file:
+#### Load Training Data ####
+with open("/Training_dataset.pkl", "rb") as file:
     Train_data = pickle.load(file)
 
 BATCH_SIZE = 64
