@@ -11,5 +11,9 @@ T-cell receptors (TCRs) are fundamental components of the adaptive immune system
 * **(1)** The model enables the de novo generation of TCRs specific to target epitopes.
 * **(2)** We utilized the TCR-epiDiff encoder to build a classifier for TCR-epitope binding prediction.
 
+## Dependencies
+  ~
+
+
 ## License
 TCR-epiDiff and TCR-epi*BP code and data are freely available for academic use in non-commercial research. However, if you intend to use our model or scripts for any commercial application, you must obtain a separate license.
