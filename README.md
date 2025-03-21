@@ -12,7 +12,9 @@ T-cell receptors (TCRs) are fundamental components of the adaptive immune system
 * **(2)** We utilized the TCR-epiDiff encoder to build a classifier for TCR-epitope binding prediction.
 
 ## Dependencies
-  ~
+```python
+pip install -r requirements.txt
+```
 
 
 ## License
