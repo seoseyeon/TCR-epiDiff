@@ -33,7 +33,6 @@ class UNet1DClassifier(nn.Module):
         self.encoder = encoder  # encoder
         self.flatten = nn.Flatten()  # Flatten layer
 
-        # 각 Linear 레이어에 HLA 정보를 추가
         self.fc1 = nn.Linear(512 * 72, 1024)
         self.fc2 = nn.Linear(1024, 512)
         self.fc3 = nn.Linear(512, 128)
