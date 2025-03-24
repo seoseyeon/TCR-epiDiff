@@ -39,7 +39,7 @@ class UNet1DClassifier(nn.Module):
         self.fc4 = nn.Linear(128, 64)
         self.fc5 = nn.Linear(64, num_classes)
 
-        self.dropout = nn.Dropout(0.94)
+        self.dropout = nn.Dropout(dropout_prob)
         self.batchnorm1 = nn.BatchNorm1d(1024)
         self.batchnorm2 = nn.BatchNorm1d(128)
         self.batchnorm3 = nn.BatchNorm1d(64)
