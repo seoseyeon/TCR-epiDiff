@@ -15,8 +15,8 @@ T-cell receptors (TCRs) are fundamental components of the adaptive immune system
 ```python
 pip install -r requirements.txt
 ```
-## Download TCR-epiBP/TCR-epi*BP model
-You can download the model from https://doi.org/10.5281/zenodo.15094766.
+## Download TCR-epiBP/TCR-epi*BP model & Dataset
+You can download the model from https://doi.org/10.5281/zenodo.15094766, https://doi.org/10.5281/zenodo.15094767.
 
 ## License
 TCR-epiDiff and TCR-epi*BP code and data are freely available for academic use in non-commercial research. However, if you intend to use our model or scripts for any commercial application, you must obtain a separate license.
