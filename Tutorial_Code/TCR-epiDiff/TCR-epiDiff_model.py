@@ -179,7 +179,7 @@ def train_ddpm_with_schedule(model, dataloader, num_epochs, lr=0.001, time_steps
                 noisy_data, noise = add_noise(TCR, t_tensor, sqrt_alpha_bar, sqrt_one_minus_alpha_bar)
 
                 predicted_noise, latent_output = model(noisy_data, t_tensor, epitope)
-                # Denoised data 계산
+                # Denoised data
                 denoised_data = get_denoised_data(noisy_data, predicted_noise, t_tensor, sqrt_alpha_bar, sqrt_one_minus_alpha_bar)
                 loss = criterion(predicted_noise, noise)
 
